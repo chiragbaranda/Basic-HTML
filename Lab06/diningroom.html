@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Chirag Baranda (000759867) -->
+		<title>Sandy and Leslie's apartment</title>
+		<link href = "apartment_layout.css" rel = "stylesheet" type = "text/css" >
+		<link href = "mobile.css" rel = "stylesheet" type = "text/css" >
+	</head>
+	<header>
+		<h1>Sandy and Leslie's Apartment</h1>
+		<p>Click a room for a detailed view.</p>
+	
+	</header>
+	<body>
+		<img src = "images/apartmentfloorplanf2017.jpg" alt = "apartment plan" title = "Apartment plan" id = "desktopImage" usemap = "#apartment">
+		<img src = "images/apartmentfloorplanf2017.jpg" id="mobileImage" alt = "apartment plan" title = "Apartment plan">
+		<!-- This is my handcoded imagemap but i also took refrence of w3school-->
+		<map name = "apartment" >
+			
+            
+            <area shape = "rect" coords = "54,100,203,258" alt = "Detail view is not available" title = "Detail view is not available" href = "#">
+            
+            <area shape = "polygon" coords = "228,81,382,114,382,176,332,178,305,208,303,248,228,258" alt = "livingroom" title = "livingroom" href = "livingroom.html">
+            
+            <area shape = "circle" coords = "345,220,40" alt = "Dining" title = "Dinning Room" href = "diningroom.html">
+            
+			<area shape = "rect" coords = "400,99,565,343" alt = "Bedroom" title = "bedroom" href = "bedroom.html" >
+			
+			
+			<area shape = "rect" coords = "222,288,398,441" alt = "kitchen" title = "kitchen" href = "kitchen.html" >
+			
+		</map>
+		<nav>
+			<ul>
+				<li><a href = "apartment.html" >Apartment</a></li>
+				<li><a href = "bedroom.html" >Bedroom</a></li>
+				<li><a href = "diningroom.html" >Dining Room</a></li>
+				<li><a href = "kitchen.html">Kitchen</a></li>
+				<li><a href = "livingroom.html" >Living Room</a></li>
+			</ul>
+		</nav>
+		
+		<h2>Diningroom Detail</h2>
+		
+		<img src = "images/diningroom_lg.jpg" alt = "Dining Room" title = "Dinning Room">
+		
+	</body>
+</html>

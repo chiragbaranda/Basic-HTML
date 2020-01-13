@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <!-- Chirag Baranda (000759867) -->
+    <title>Sandy and Leslie's apartment</title>
+    <link href="apartment_layout.css" rel="stylesheet" type="text/css">
+    <link href="mobile.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Sandy and Leslie's Apartment</h1>
+        <p>Click the room for the detailed view.</p>
+
+    </header>
+
+    <img src="images/apartmentfloorplanf2017.jpg" id="desktopImage" alt="apartment plan" title="Apartment plan" usemap="#apartment">
+    <img src="images/apartmentfloorplanf2017" id="mobileImage" alt="apartment plan" title="Apartment plan">
+    <!-- This is my handmade imagemap but on the otherhand I also took refrence of w3school-->
+    <map name="apartment">
+			
+            
+            <area shape = "rect" coords = "54,100,203,258" alt = "Detail view is not available" title = "Detail view is not available" href = "#">
+            
+            <area shape = "polygon" coords = "228,81,382,114,382,176,332,178,305,208,303,248,228,258" alt = "livingroom" title = "livingroom" href = "livingroom.html">
+            
+            <area shape = "circle" coords = "345,220,40" alt = "Dining" title = "Dinning Room" href = "diningroom.html">
+            
+			<area shape = "rect" coords = "400,99,565,343" alt = "Bedroom" title = "bedroom" href = "bedroom.html" >
+			
+			
+			<area shape = "rect" coords = "222,288,398,441" alt = "kitchen" title = "kitchen" href = "kitchen.html" >
+			
+		</map>
+
+    <nav>
+        <ul>
+            <li><a href="apartment.html">Apartment</a></li>
+            <li><a href="bedroom.html">Bedroom</a></li>
+            <li><a href="diningroom.html">Dining Room</a></li>
+            <li><a href="kitchen.html">Kitchen</a></li>
+            <li><a href="livingroom.html">Living Room</a></li>
+        </ul>
+    </nav>
+
+
+
+    <form id="Rentalform" Method="post" action="mailto:mail.goog@gmail.com">
+
+        <h2>Rental Application: Please complete the form below</h2>
+
+        <table>
+
+            <tr>
+                <td>First Name</td>
+                <td><input type="text" name="First Name" size="20"></td>
+            </tr>
+
+            <tr>
+                <td>Last Name</td>
+                <td><input type="text" name="Last Name" size="20"></td>
+            </tr>
+
+            <tr>
+                <td>Email Address</td>
+                <td><input type="text" name="email" placeholder="name@example.com" size="50"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> Rental Date (starts the first day of this month)</td>
+            </tr>
+
+            <tr>
+                <td>Month
+                    <td><select name="Month">
+                        <option value = "January" selected>January</option>
+                        <option value = "February"> February</option>
+                        <option value = "March"> March</option>
+                        <option value = "April"> April</option>
+                        <option value = "May"> May</option>
+                        <option value = "June"> June</option>
+                        <option value = "July"> July</option>
+                        <option value = "August"> August</option>
+                        <option value = "September"> September</option>
+                        <option value = "Octomber"> Octomber</option>
+                        <option value = "November"> November</option>
+                        <option value = "December"> December</option>
+                    </select>
+                    </td>
+            </tr>
+
+            <tr>
+                <td>Year</td>
+                <td><select name="Year">
+                        <option value = "2017" >2017</option>
+                        <option value = "2018" >2018</option>
+                        <option value = "2019" >2019</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>How did you come to know about this appartment? <br/> Check any that apply</td>
+                <td> <br/> <input type="checkbox" name="hear" value="Newspaper">Newspaper <br/>
+                    <input type="checkbox" name="hear" value="social media">social media <br/>
+                    <input type="checkbox" name="hear" value="others">Friend
+                </td>
+            </tr>
+
+            <tr>
+                <td>Method for payment</td>
+                <td> <br/> <br/> <input type="radio" name="payment" value="Visa">Visa <br/>
+                    <input type="radio" name="payment" value="Mastercard">Mastercard <br/>
+                    <input type="radio" name="payment" value="eTransfer">eTransfer
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="Submit"></td>
+                <td><input type="reset" value="Reset application"></td>
+            </tr>
+
+
+        </table>
+
+        <h2>Apartment Service </h2>
+        <table border="1">
+
+            <th/>
+                 Services
+            <th>Timings</th>
+            
+            
+                <tr>
+                    <td>Pool hours</td>
+                    <td>  <br/>  Monday-Thursday 9am - 10pm<br/>Saturday 10am - 11.30pm<br/>Sunday 11am - 9pm<br/><br/></td>
+                </tr>
+            
+                <tr>
+                    <td>Gym hours</td>
+                    <td> <br/>Monday-Thursday 5.30am - 11pm<br/>Saturday 8am - 9pm<br/>Sunday 9am - 5pm<br/><br/> </td>
+                </tr>
+                
+                <tr>
+                    <td>Party room hours</td>
+                    <td> <br/>Monday-Thursday 11.30am - 10pm<br/>Saturday 11.30am - 11.30pm<br/>Sunday 10am - 10pm<br/><br/></td>
+                </tr>
+                <tr>
+                    <td colspan="2">Contact Email Address: apartment@example.com</td>
+                </tr>
+
+        </table>
+
+        		<br/> <embed src = "images/apartment.mp3" type = "audio/mp3" alt = "audio" width="300" height="50">
+
+        <p> Transcript: <br/><br/> Hello. Welcome to our apartment. You’ll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you!</p>
+
+
+</body>
+</html>

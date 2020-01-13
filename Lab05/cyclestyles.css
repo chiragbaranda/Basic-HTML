@@ -1,0 +1,133 @@
+* { margin: 0;padding: 0;}
+/*.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 350px;
+font-size: 4em;}*/
+    
+
+body{margin-right: 10%;}
+
+nav{
+    position: absolute;
+    margin-top: 10px;
+    margin-right: 145px;
+    top: 0;
+    right:0;
+}
+
+.topImg{
+    position: absolute;
+    margin-top: 27px;
+    margin-right: 145px;
+    top: 0;
+    right: 0;
+    
+}
+
+a{background-color: #C0C0C0;
+padding: 0px 9px;
+border: black 1px solid;
+border-bottom-style: none;
+text-decoration: none;
+border-radius: 10px 0px 0px 0px;
+color: white;}
+
+a:link{color:white;}
+
+section.box1{position: absolute;
+    right: 0;
+    top: 0;
+    width: 200px;
+    height: 600px;
+    margin-right: 145px;
+    margin-top: 338px;
+    background-color: #bbccdd;
+    text-align: center;
+}
+
+
+section.box2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 797px;
+    height: 450px;
+    margin-right: 347px;
+    margin-top: 338px;
+   
+}
+
+a.topLink{
+    all:initial;
+    position: absolute;
+    margin-top: 40px;
+    margin-right: 685px;
+    top: 0;
+    right: 0;
+    font-family: ArialBlack;
+    color: white;
+    font-size: 45px;    
+}
+
+.bannerPara{
+    all:initial;
+    font-size: 15px;
+    margin: 10px;
+    text-align: inherit;
+}
+
+
+a:hover{color: black;}
+
+p{margin: 10px;
+text-indent:20px;}
+
+.float{float:right;
+text-align: center;}
+
+footer
+{border-top: black 1px solid;
+position: absolute;
+top: 0;
+right: 0;
+margin-right: 125px;
+margin-top: 937px;
+width: 1000px;
+text-align: center;}
+
+h3{color:white;
+text-align: center;}
+
+.banner1{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 30px;
+    margin-right: 2px;
+    border-style: dashed;
+    border-bottom-style: none;
+    border-radius:  0px 15px 0px 0px;
+    background-color: #888888;
+    height: 25px;
+    width: 125px;
+}
+
+.banner2{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin-top: 55px;
+    margin-right: 2px;
+    border-style: dashed;
+    border-top-style: none;
+    border-radius:  0px 0px 0px 25px;
+    background-image: url(images/dust.jpg);
+    height: 50px;
+    width: 125px;
+}

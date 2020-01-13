@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Author- Chirag Baranda-000759867-->
+    <title> Cycling Tour </title>
+    <link rel=stylesheet type="text/css" href="formcss.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <a href="aboutus.html"> About Us</a>
+        <a href="#"> Ask Us</a>
+        <a href="#"> Destinations</a>
+        <a href="#"> FAQ</a>
+        <a href="reviews.html"> Reviews</a>
+        <a href="seminars.html"> Seminars</a>
+        <a href="#"> Trip Prep</a>
+    </nav>
+
+
+    <span class="topImg"> <img src="images/bicyclebanner.jpg" alt="cycling tours"> </span>
+
+    <a class="topLink" href="#"> Cycling Tours </a>
+
+
+    <section class="box2">
+
+        <h1> Reviews </h1>
+
+        <form action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+
+
+            <fieldset>
+                <legend> Tip review: </legend>
+
+
+                <select name="trip_name">
+        <option> B.C. Mountains </option>
+        <option> Ontario Rural</option>
+        <option>Ontario City</option>
+        <option> PEI </option>
+        <option selected>Nova Scotia Cabot Trail </option>
+        </select>
+
+                <select name="days">
+            <option value="7d"> 7 days </option>
+            <option value="10d">10 days</option>
+            <option value="14d">14 days</option>
+            <option value="21d">21 days</option>
+        </select>
+                <br>
+                <label for="Rating">Your rating:</label>
+                <br>
+                <input type="radio" name="rating" value="5"> <img src="images/5star.png"> <br>
+                <input type="radio" name="rating" value="4"> <img src="images/4star.png">
+                <br>
+                <input type="radio" name="rating" value="3"> <img src="images/3star.png">
+                <br>
+                <input type="radio" name="rating" value="2"> <img src="images/2star.png">
+                <br>
+                <input type="radio" name="rating" value="1"> <img src="images/1star.png">
+
+                <br> Comment:
+                <br>
+                <textarea name="comment" rows="7" cols="65" maxlength="50">
+        
+                        </textarea>
+
+
+            </fieldset>
+
+            <fieldset>
+                <legend> I would be intrested in these trips: (check all that apply) </legend>
+
+                <input type="checkbox" checked name="intrest" value="urban"> Urban (cities) <br>
+                <input type="checkbox" name="intrest" value="rural"> Rural <br>
+                <input type="checkbox" name="intrest" value="mountains"> Mountains <br>
+                <input type="checkbox" name="intrest" value="others"> Others (Please Specify) <input type="text"> <br>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>About You (optional) </legend>
+                [ usually prefer to trips this time of the year(check all that apply)] <br>
+
+                <select size="4" style="width:100px;" multiple name="season">
+               
+                 <option>Winter</option>
+                 <option>Spring</option>
+                 <option>Summer</option>
+                 <option>Fall</option>
+            </select>
+                <p>Hold down the Ctrl (windows) / Command (Mac) button to select multiple options.</p>
+
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td><input type="text" maxlength="20" name="first_name" size="20"> </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" maxlength="20" name="last_name" size="20"> </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td><input type="text" maxlength="12" placeholder="123-456-7890" name="phone_number" size="12"> </td>
+                    </tr>
+                    <tr>
+                        <td>Email Address</td>
+                        <td><input name="email_address" type="text" maxlength="40" placeholder="name@example.com" size="40"> </td>
+                    </tr>
+
+                </table>
+            </fieldset>
+            <fieldset style="border: none">
+                <input type="submit" value="SEND REVIEW" style="font-weight: bold"> <input type="reset" value="CANCEL" style="font-weight: bold">
+            </fieldset>
+        </form>
+
+
+    </section>
+
+    <footer>
+        <p> Cycling Tours * P.O. Box 4455 * Brantford, ON * N3T 2J0</p>
+        <p> Image credit: http://www.bikelink.com/images/banner01.jpg </p>
+    </footer>
+
+</body>
+
+</html>

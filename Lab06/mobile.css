@@ -1,0 +1,19 @@
+/* text css
+	Name : Chirag Baranda
+	Student Number: 000759867
+*/
+@media only screen and (max-width: 48em ){
+	
+	#desktopImage{
+		display: none;
+	}
+	
+	#mobileImage {
+		display: block;
+	}
+	nav ul li{
+		display: block;
+		border: none;
+		padding: 5px;
+	}
+} 
